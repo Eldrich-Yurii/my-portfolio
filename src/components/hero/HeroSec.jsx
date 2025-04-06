@@ -1,6 +1,7 @@
 import React from "react";
 import "../../index.css";
 import { Button } from "@material-tailwind/react";
+import HeroHeading from "./HeroHeading";
 import {
   FaFacebookSquare,
   FaInstagram,
@@ -20,33 +21,58 @@ export default function HeroSec() {
               👋 Hi! I am Eldrich Jyuri S. Torcuator
             </small>
             <div className="inline-flex gap-2">
-              <a href="https://www.facebook.com/eldrich.jyuri.sumabat.22" className="" target="_blank">
+              <a
+                href="https://www.facebook.com/eldrich.jyuri.sumabat.22"
+                className="hover:text-[#e73c37]"
+                target="_blank"
+              >
                 <FaFacebookSquare />
               </a>
-              <a href="" target="_blank">
+              <a href="" target="_blank" className="hover:text-[#e73c37]">
                 <FaInstagram />
               </a>
-              <a href="" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/eldrich-jyuri-sumabat/"
+                target="_blank"
+                className="hover:text-[#e73c37]"
+              >
                 <FaLinkedinIn />
               </a>
-              <a href="https://github.com/Eldrich-Yurii" target="_blank">
+              <a
+                href="https://github.com/Eldrich-Yurii"
+                target="_blank"
+                className="hover:text-[#e73c37]"
+              >
                 <FaGithubAlt />
               </a>
-              <a href="" target="_blank">
+              <a
+                href="mailto:sumabateldrichjyuri@gmail.com"
+                target="_blank"
+                className="hover:text-[#e73c37]"
+              >
                 <SiGmail />
               </a>
             </div>
           </section>
-          <section>
-            <h1 className="uppercase font-alumni-sans text-[280px] font-extrabold tracking-tight leading-[100%]">
+          <section className="w-[74rem]">
+            {/* <h1 className="uppercase font-alumni-sans text-[280px] font-extrabold tracking-tight leading-[100%]">
               web developer
-            </h1>
+            </h1> */}
+            <HeroHeading />
           </section>
           <section className="flex justify-between">
             <div className="w-80">
               <small className="font-prompt-light tracking-tighter">
-                Based in Philippines - <span className="line-through decoration-[10%] decoration-[#e73c37]">Valenzuela City</span>,
-                <span className="line-through decoration-[10%] decoration-[#e73c37]"> San Miguel Bulacan</span>, Sta. Maria Bulacan
+                Based in Philippines -{" "}
+                <span className="line-through decoration-[15%] decoration-[#e73c37]">
+                  Valenzuela City
+                </span>
+                ,
+                <span className="line-through decoration-[15%] decoration-[#e73c37]">
+                  {" "}
+                  San Miguel Bulacan
+                </span>
+                , Sta. Maria Bulacan
               </small>
             </div>
             <div>

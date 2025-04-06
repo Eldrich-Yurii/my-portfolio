@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="h-screen grid items-center text-[#333333] bg-pink-200 px-[4.5rem]">
+    <div className="h-screen grid items-center text-[#333333] px-[4.5rem]">
       <div>
         <section>
           <h4 className="font-alumni-sans font-semibold text-5xl pb-12">
@@ -25,7 +25,7 @@ export default function About() {
               Technology. <br />I love learning new things whether it is design or
               programming technologies. <br />As an aspiring developer and designer I
               would love to work and collaborate with like-minded people. 
-              <br />Have an idea? Thoughts in mind? 🤔 <a href=""className="underline underline-offset-0 decoration-[#e73c37] decoration-[20%] ">Let's connect.</a> 🤝
+              <br />Have an idea? Thoughts in mind? 🤔 <a href="https://www.linkedin.com/in/eldrich-jyuri-sumabat/"className="underline underline-offset-1 decoration-[#e73c37] decoration-[20%] hover:text-[#e73c37]">Let's connect.</a> 🤝
             </p>
           </div>
         </section>

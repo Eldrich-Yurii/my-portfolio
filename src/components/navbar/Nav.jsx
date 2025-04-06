@@ -56,7 +56,7 @@ export default function Nav() {
   }, []);
 
   return (
-    <Navbar className="sticky top-0 shadow-none border-none">
+    <Navbar className="sticky top-0 shadow-none border-none z-20">
       <div>
         <div className="flex justify-between items-center w-full lg:h-16 lg:px-[4.5rem]">
           <div className="inline-flex items-center">
