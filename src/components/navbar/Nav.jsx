@@ -34,7 +34,7 @@ function NavList() {
             as="a"
             href={href}
             type="small"
-            className="flex items-center gap-x-2 p-1 hover:text-primary font-alumni-sans font-bold text-[#333333] text-[18px]"
+            className="flex items-center gap-x-2 p-1 hover:text-[#e73c37] font-prompt-semibold text-[#333333] text-[16px]"
           >
             {/* <Icon className="h-4 w-4" /> */}
             {title}
@@ -60,12 +60,12 @@ export default function Nav() {
       <div>
         <div className="flex justify-between items-center w-full lg:h-16 lg:px-[4.5rem]">
           <div className="inline-flex items-center">
-              <img src={LOGO} alt="logo" width={60}/>
+              <img src={LOGO} alt="logo" width={50}/>
             <Typography
               as="a"
               href="#"
               type="small"
-              className="ml-2 mr-2 block py-1 text-lg font-player text-[#E73C37]"
+              className="ml-2 mr-2 block py-1 text-3xl font-alumni-sans font-bold text-[#E73C37]"
             >
               YURI
             </Typography>
@@ -75,7 +75,7 @@ export default function Nav() {
             <NavList />
           </div>
           <div>
-            <Button className="hidden border-none bg-[#E73C37] lg:inline-block font-player text-[10px] leading-[100%] -tracking-[2%] px-[18px] py-4 rounded-[8px]">
+            <Button className="hidden border-none bg-[#E73C37] lg:inline-block font-alumni-sans text-lg leading-[100%] px-4 py-3">
               DOWNLOAD RESUME
             </Button>
           </div>

@@ -84,10 +84,10 @@ export default function HeroSec() {
         </div>
       </div>
       <div className="flex justify-center gap-6">
-        <Button className="font-player text-[10px] -tracking-[0.1rem] border-2 border-[#e73c37] text-[#e73c37] bg-transparent">
+        <Button className="font-alumni-sans text-lg font-bold border-2 border-[#e73c37] text-[#e73c37] bg-transparent">
           DOWNLOAD RESUME
         </Button>
-        <Button className="font-player text-[10px] tracking-tighter bg-[#e73c37] border-none">
+        <Button className="font-alumni-sans text-lg bg-[#e73c37] border-none">
           LET'S CONNECT
         </Button>
       </div>
