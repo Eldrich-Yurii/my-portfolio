@@ -1,4 +1,9 @@
 import React from "react";
+import SpotlightCard from "./SpotlightCard";
+import proj1 from "../../assets/cenro.png"
+import proj2 from "../../assets/Simply_bamboo.png"
+import proj3 from "../../assets/weatheria-fms.png"
+import proj4 from "../../assets/neighbors-chef.png"
 
 export default function ProjectCards() {
   const projects = [
@@ -7,7 +12,7 @@ export default function ProjectCards() {
       name: "cenro business processing system",
       description:
         "A system for San Juan City Business permits processing. Designed in Figma. Built with React.js, tailwind CSS, Node.js, Express and MongoDb",
-      image: "",
+      image: proj1,
       link: "",
       badges: [
         "Figma",
@@ -23,7 +28,7 @@ export default function ProjectCards() {
       name: "simply bamboo",
       description:
         "A landing page for feasibility study in marketing. Designed in Figma and built with React.js, tailwind CSS",
-      image: "",
+      image: proj2,
       link: "",
       badges: ["Figma", "Tailwind CSS", "React.js"],
     },
@@ -32,7 +37,7 @@ export default function ProjectCards() {
       name: "weatheria",
       description:
         "A system for Marikina City, designed to predict flood using ARIMA model. Built with Html, Bootstrap, JavaScript, Php and MySql.",
-      image: "",
+      image: proj3,
       link: "",
       badges: ["Html", "Bootstrap", "JavaScript", "Php", "MySql"],
     },
@@ -41,7 +46,7 @@ export default function ProjectCards() {
       name: "neighbor's chef",
       description:
         "A website booking management system for a restaurant. Built with React.js, Tailwind CSS, Node.js, Express.js, Mysql",
-      image: "",
+      image: proj4,
       link: "",
       badges: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MySql"],
     },
@@ -50,14 +55,11 @@ export default function ProjectCards() {
   return (
     <>
       {/* card */}
-      {projects.map((project) => {
-        return (
-          <div
-            key={project.id}
-            className="drop-shadow-lg bg-white rounded-2xl w-[18rem] h-[24rem] px-3 pt-3"
-          >
-            <figure className="w-full h-40 bg-black rounded-lg mb-2">
-              {/* <img src="" alt="projectPic"/> */}
+    {projects.map((project) => {
+      return (
+        <SpotlightCard key={project.id} className="drop-shadow-lg bg-white rounded-2xl w-[18rem] h-[24rem] px-3 pt-3" spotlightColor="#3789e7230">
+          <figure>
+              <img src={project.image} className="w-full aspect-video bg-black rounded-lg mb-2" alt="projectPic"/>
             </figure>
             <header>
               <h2 className="font-alumni-sans font-bold text-xl uppercase">
@@ -83,9 +85,9 @@ export default function ProjectCards() {
                 </small>
               </div>
             </div>
-          </div>
-        );
-      })}
+        </SpotlightCard>
+      )
+    })}
     </>
   );
 }
