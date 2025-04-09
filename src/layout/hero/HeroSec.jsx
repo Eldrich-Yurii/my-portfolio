@@ -1,12 +1,12 @@
 import React from "react";
 import "../../index.css";
 import { Button } from "@material-tailwind/react";
-import HeroHeading from "./HeroHeading";
+import HeroHeading from "../../components/headingText/HeroHeading";
+import HeroSecCTA from "../../components/buttons/HeroSecCTA/HeroSecCTA";
 import {
   FaFacebookSquare,
   FaInstagram,
   FaLinkedinIn,
-  FaGithub,
   FaGithubAlt,
 } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
@@ -55,9 +55,6 @@ export default function HeroSec() {
             </div>
           </section>
           <section className="w-[74rem]">
-            {/* <h1 className="uppercase font-alumni-sans text-[280px] font-extrabold tracking-tight leading-[100%]">
-              web developer
-            </h1> */}
             <HeroHeading />
           </section>
           <section className="flex justify-between">
@@ -84,12 +81,7 @@ export default function HeroSec() {
         </div>
       </div>
       <div className="flex justify-center gap-6">
-        <Button className="font-alumni-sans text-lg font-bold border-2 border-[#e73c37] text-[#e73c37] bg-transparent">
-          DOWNLOAD RESUME
-        </Button>
-        <Button className="font-alumni-sans text-lg bg-[#e73c37] border-none">
-          LET'S CONNECT
-        </Button>
+        <HeroSecCTA />
       </div>
     </div>
   );

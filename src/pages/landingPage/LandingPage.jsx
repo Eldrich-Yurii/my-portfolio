@@ -1,10 +1,10 @@
-import HeroSec from '../../components/hero/HeroSec'
+import HeroSec from '../../layout/hero/HeroSec'
 import Nav from '../../components/navbar/Nav'
-import About from '../../components/about/About'
-import Skills from '../../components/skills/Skills'
-import Projects from '../../components/projects/Projects'
-import Contact from '../../components/contact/Contact'
-import Footer from '../../components/footer/Footer'
+import About from '../../layout/about/About'
+import Skills from '../../layout/skills/Skills'
+import Projects from '../../layout/projects/Projects'
+import Contact from '../../layout/contact/Contact'
+import Footer from '../../layout/footer/Footer'
 import React from 'react'
 
 export default function LandingPage() {
