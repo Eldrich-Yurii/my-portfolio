@@ -5,12 +5,14 @@ import Cenro from "../pages/projects/cenro/Cenro";
 import SimplyBamboo from "../pages/projects/simplyBamboo/SimplyBamboo"
 import Weatheria from "../pages/projects/weatheria/Weatheria"
 import NeighborsChef from "../pages/projects/neighborsChef/neighborsChef"
+import About from "../layout/about/About";
 
 export default function AppRoutes() {
   return (
     <>
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/about" element={<About />} />
         <Route path="/cenro" element={<Cenro />} />
         <Route path="/simply-bamboo" element={<SimplyBamboo />} />
         <Route path="/weatheria" element={<Weatheria />} />

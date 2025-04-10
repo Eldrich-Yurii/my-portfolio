@@ -63,7 +63,7 @@ export default function Nav() {
               <img src={LOGO} alt="logo" width={50}/>
             <Typography
               as="a"
-              href="#"
+              href="/"
               type="small"
               className="ml-2 mr-2 block py-1 text-3xl font-alumni-sans font-bold text-[#E73C37]"
             >
