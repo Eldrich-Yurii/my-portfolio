@@ -11,6 +11,7 @@ export default function TiltedCard({
   imageSrc,
   title,
   description,
+  projectLink,
   badge,
   altText = "Tilted card image",
   captionText = "",
@@ -123,7 +124,7 @@ export default function TiltedCard({
         <div>
           <div className="h-24">
             <small className="font-prompt-regular leading-[150%] py-2">
-              {description}
+              {description}{" "}<span className="underline decoration-[20%] decoration-[#e73c37] hover:text-red-800">{projectLink}</span>
             </small>
           </div>
         </div>

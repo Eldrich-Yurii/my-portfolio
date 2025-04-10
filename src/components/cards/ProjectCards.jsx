@@ -4,6 +4,7 @@ import proj1 from "../../assets/cenro.png";
 import proj2 from "../../assets/Simply_bamboo.png";
 import proj3 from "../../assets/weatheria-fms.png";
 import proj4 from "../../assets/neighbors-chef.png";
+import { Link } from "react-router";
 
 export default function ProjectCards() {
   const projects = [
@@ -11,9 +12,9 @@ export default function ProjectCards() {
       id: 1,
       name: "cenro business processing system",
       description:
-        "A system for San Juan City Business permits processing. Designed in Figma. Built with React.js, tailwind CSS, Node.js, Express and MongoDb",
+        "A system for San Juan City Business permits processing. Designed in Figma. Built with React.js, tailwind CSS, Node.js, Express and MongoDb.",
       image: proj1,
-      link: "",
+      link: <Link to="/cenro">See more</Link>,
       alt: "cenro business processing system",
       badges: [
         "Figma",
@@ -28,9 +29,9 @@ export default function ProjectCards() {
       id: 2,
       name: "simply bamboo",
       description:
-        "A landing page for feasibility study in marketing. Designed in Figma and built with React.js, tailwind CSS",
+        "A landing page for feasibility study in marketing. Designed in Figma and built with React.js, tailwind CSS.",
       image: proj2,
-      link: "",
+      link: <Link to="/simply-bamboo">See more</Link>,
       alt: "simply bamboo",
       badges: ["Figma", "Tailwind CSS", "React.js"],
     },
@@ -40,7 +41,7 @@ export default function ProjectCards() {
       description:
         "A system for Marikina City, designed to predict flood using ARIMA model. Built with Html, Bootstrap, JavaScript, Php and MySql.",
       image: proj3,
-      link: "",
+      link: <Link to="/weatheria">See more</Link>,
       alt: "weatheria",
       badges: ["Html", "Bootstrap", "JavaScript", "Php", "MySql"],
     },
@@ -48,9 +49,9 @@ export default function ProjectCards() {
       id: 4,
       name: "neighbor's chef",
       description:
-        "A website booking management system for a restaurant. Built with React.js, Tailwind CSS, Node.js, Express.js, Mysql",
+        "A website booking management system for a restaurant. Built with React.js, Tailwind CSS, Node.js, Express.js, Mysql.",
       image: proj4,
-      link: "",
+      link: <Link to="/neighbors-chef">See more</Link>,
       alt: "neighbor's chef",
       badges: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MySql"],
     },
@@ -65,6 +66,7 @@ export default function ProjectCards() {
             imageSrc={project.image}
             title={project.name}
             description={project.description}
+            projectLink={project.link}
             badge={project.badges?.map((badge, index) => {
               return (
                 <div key={index} className="inline-block pr-1 pb-1">
@@ -75,7 +77,7 @@ export default function ProjectCards() {
               );
             })}
             altText={project.alt}
-            captionText="See more"
+            captionText="Click - See more"
             containerHeight="24rem"
             containerWidth="300px"
             rotateAmplitude={10}
