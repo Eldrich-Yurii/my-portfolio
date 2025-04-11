@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
 .font-prompt-thin {
   font-family: "Prompt", sans-serif;
   font-weight: 100;

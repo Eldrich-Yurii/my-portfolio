@@ -4,7 +4,7 @@ import ProjectCards from "../../components/cards/ProjectCards";
 
 export default function Projects() {
   return (
-    <div className="h-screen px-[4.5rem] text-[#333333]">
+    <div id="projects" className="h-screen px-[4.5rem] text-[#333333]">
       <h3 className="text-center uppercase font-alumni-sans text-7xl font-extrabold">
         Projects
       </h3>

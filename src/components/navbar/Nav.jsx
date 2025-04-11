@@ -13,15 +13,15 @@ import LOGO from "../../assets/yuri-logo.png"
 const LINKS = [
   {
     title: "About",
-    href: "#",
-  },
-  {
-    title: "Projects",
-    href: "#",
+    href: "/#about",
   },
   {
     title: "Skills",
-    href: "#",
+    href: "/#skills",
+  },
+  {
+    title: "Projects",
+    href: "/#projects",
   },
 ];
 

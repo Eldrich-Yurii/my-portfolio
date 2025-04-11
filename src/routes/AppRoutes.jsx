@@ -12,7 +12,7 @@ export default function AppRoutes() {
     <>
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/#about" element={<About />} />
         <Route path="/cenro" element={<Cenro />} />
         <Route path="/simply-bamboo" element={<SimplyBamboo />} />
         <Route path="/weatheria" element={<Weatheria />} />
