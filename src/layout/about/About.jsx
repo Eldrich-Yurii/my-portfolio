@@ -5,21 +5,21 @@ export default function About() {
     <div id="about" className="h-screen grid items-center text-[#333333] px-[7rem]">
       <div>
         <section>
-          <h4 className="font-alumni-sans font-semibold text-5xl pb-12">
+          <h4 className="font-alumni-sans font-semibold lg:text-5xl lg:pb-12">
             MORE ABOUT{" "}
             <span className="underline decoration-[20%] decoration-[#e73c37] underline-offset-1">
               ME
             </span>
           </h4>
         </section>
-        <section className="flex justify-between">
+        <section className="flex flex-col lg:justify-between">
           <div>
-            <h2 className="w-[37rem] font-alumni-sans font-black text-9xl uppercase leading-[70%]">
+            <h2 className="font-alumni-sans font-black lg:w-[37rem] lg:text-9xl uppercase leading-[70%]">
               Hi My name is <span className="text-[#e73c37]">Eldrich</span>{" "}
               Jyuri S. Torcuator
             </h2>
           </div>
-          <div className="font-medium text-xl w-[34rem] leading-10 font-prompt-regular">
+          <div className="font-prompt-regular font-medium lg:text-xl lg:w-[34rem] lg:leading-10">
             <p>
               A college <span className="line-through decoration-[#333333] decoration-[20%] ">student</span> <span className="text-[#e73c37]">graduate</span> of Bachelor of Science in Information
               Technology. <br />I love learning new things whether it is design or

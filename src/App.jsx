@@ -1,14 +1,14 @@
-import './App.css'
-import Landing from './pages/landingPage/LandingPage'
-import AppRoutes from './routes/AppRoutes'
+import "./App.css";
+import Nav from "./components/navbar/Nav";
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
-
   return (
     <>
+      <Nav />
       <AppRoutes />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

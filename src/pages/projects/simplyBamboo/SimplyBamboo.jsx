@@ -7,11 +7,6 @@ export default function SimplyBamboo() {
   return (
     <div className="px-[14rem] py-[4.5rem] text-[#333333]">
       <header>
-        <nav>
-          <Link to="/">
-            <TbArrowLeft />
-          </Link>
-        </nav>
         <h2 className="uppercase text-5xl font-alumni-sans font-bold">
           simply bamboo
         </h2>

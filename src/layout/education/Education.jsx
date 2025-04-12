@@ -1,7 +1,5 @@
 import { Timeline, Typography, Avatar } from "@material-tailwind/react";
-import INFOLOGO from "../../assets/informatics.webp"
-import KODLOGO from "../../assets/kodego.webp"
-import JJLOGO from "../../assets/johnJ.webp"
+
 
 export default function Education() {
   return (

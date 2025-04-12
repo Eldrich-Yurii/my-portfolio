@@ -1,5 +1,4 @@
 import HeroSec from "../../layout/hero/HeroSec";
-import Nav from "../../components/navbar/Nav";
 import About from "../../layout/about/About";
 import Skills from "../../layout/skills/Skills";
 import Projects from "../../layout/projects/Projects";
@@ -18,14 +17,6 @@ export default function LandingPage() {
         easing="ease-out"
         initialOpacity={0}
       >
-        <Nav />
-      </FadeContent>
-      <FadeContent
-        blur={true}
-        duration={1000}
-        easing="ease-out"
-        initialOpacity={0}
-      >
         <HeroSec />
       </FadeContent>
       <FadeContent
@@ -34,7 +25,7 @@ export default function LandingPage() {
         easing="ease-out"
         initialOpacity={0}
       >
-      <About />
+        <About />
       </FadeContent>
       <FadeContent
         blur={true}
@@ -50,7 +41,7 @@ export default function LandingPage() {
         easing="ease-out"
         initialOpacity={0}
       >
-         <Projects />
+        <Projects />
       </FadeContent>
       <FadeContent
         blur={true}
@@ -58,7 +49,7 @@ export default function LandingPage() {
         easing="ease-out"
         initialOpacity={0}
       >
-         <Education />
+        <Education />
       </FadeContent>
       <FadeContent
         blur={true}
@@ -66,7 +57,7 @@ export default function LandingPage() {
         easing="ease-out"
         initialOpacity={0}
       >
-         <Contact />
+        <Contact />
       </FadeContent>
       <Footer />
     </div>

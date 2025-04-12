@@ -58,7 +58,7 @@ export default function Nav() {
   return (
     <Navbar className="sticky top-0 shadow-none border-none z-20">
       <div>
-        <div className="flex justify-between items-center w-full lg:h-16 lg:px-[7rem]">
+        <div className="flex px-[1rem] justify-between items-center w-full lg:h-16 lg:px-[7rem]">
           <div className="inline-flex items-center">
             <img src={LOGO} alt="logo" width={50} />
             <Typography
@@ -74,25 +74,25 @@ export default function Nav() {
           <div className="hidden lg:block">
             <NavList />
           </div>
-          <div>
-            <Button className="font-alumni-sans text-lg font-bold tracking-wide border-2 border-[#e73c37] text-[#e73c37] bg-transparent hover:border-[#e73c37] hover:bg-[#e73c37] hover:text-white">
+          <div className="hidden lg:block">
+            <Button className=" font-alumni-sans text-lg font-bold tracking-wide border-2 border-[#e73c37] text-[#e73c37] bg-transparent hover:border-[#e73c37] hover:bg-[#e73c37] hover:text-white">
               DOWNLOAD RESUME
             </Button>
           </div>
-        </div>
-        <IconButton
-          size="sm"
-          variant="ghost"
-          color="secondary"
-          onClick={() => setOpenNav(!openNav)}
-          className="ml-auto grid lg:hidden"
-        >
-          {openNav ? (
-            <IoClose className="h-4 w-4" />
-          ) : (
-            <TbMenu className="h-4 w-4" />
-          )}
-        </IconButton>
+          <IconButton
+            size="sm"
+            variant="ghost"
+            color="secondary"
+            onClick={() => setOpenNav(!openNav)}
+            className="ml-auto grid lg:hidden"
+            >
+            {openNav ? (
+              <IoClose className="h-4 w-4" />
+            ) : (
+              <TbMenu className="h-4 w-4" />
+            )}
+          </IconButton>
+            </div>
       </div>
       <Collapse open={openNav}>
         <NavList />
