@@ -9,7 +9,7 @@ import { SiGmail } from "react-icons/si";
 
 export default function Contact() {
   return (
-    <div className="h-screen flex justify-center flex-col text-[#333333] px-[4.5rem]">
+    <div className="h-screen flex justify-center flex-col text-[#333333] px-[7rem]">
       <div className="grid pb-40">
         <header className="inline-flex items-center gap-4">
           <h4 className="font-alumni-sans uppercase text-5xl font-extrabold">

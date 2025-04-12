@@ -15,7 +15,7 @@ export default function HeroSec() {
   return (
     <div className="h-screen flex items-center justify-center flex-col">
       <div>
-        <div className="w-full text-[#333333] px-[4.5rem]">
+        <div className="w-full text-[#333333]">
           <section className="flex justify-between">
             <small className="font-prompt-light tracking-tighter">
               👋 Hi! I am Eldrich Jyuri S. Torcuator

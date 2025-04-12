@@ -63,6 +63,7 @@ export default function ProjectCards() {
       {projects.map((project) => {
         return (
           <TiltCard
+            key={project.id}
             imageSrc={project.image}
             title={project.name}
             description={project.description}

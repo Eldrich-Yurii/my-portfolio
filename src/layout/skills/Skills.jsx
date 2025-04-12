@@ -16,7 +16,7 @@ import FallingText from "./FallingText";
 export default function Skills() {
   return (
     <div id="skills" className="h-screen text-[#333333] grid place-content-center gap-20">
-      <h3 className="uppercase text-7xl text-center font-alumni-sans">
+      <h3 className="uppercase lg:text-[5rem] tracking-tight text-center font-alumni-sans">
         <span className="font-extrabold">discover new skills.</span>{" "}
         <span>unlock more possibilities</span>
       </h3>

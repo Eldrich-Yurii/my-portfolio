@@ -1,4 +1,4 @@
-import { Timeline, Typography } from "@material-tailwind/react";
+import { Timeline, Typography, Avatar } from "@material-tailwind/react";
 
 export default function Education() {
   return (
@@ -13,13 +13,13 @@ export default function Education() {
       >
         <Timeline.Item>
           <Timeline.Body className="-translate-y-1.5 text-right w-[30rem]">
-            <Typography
+            <div
               color="default"
               className="uppercase font-alumni-sans font-bold"
             >
               <small className="text-lg font-medium text-[#e73c37]">college</small>
-              <h3 className="text-2xl">informatics college manila inc.</h3>
-            </Typography>
+              <p className="text-2xl">informatics college manila inc. - january 2025</p>
+            </div>
             <Typography
               type="small"
               className="mt-2 text-foreground font-prompt-regular"
@@ -42,13 +42,13 @@ export default function Education() {
             <Timeline.Icon className="h-3 w-3" />
           </Timeline.Header>
           <Timeline.Body className="-translate-y-1.5  w-[30rem]">
-            <Typography
+            <div
               color="default"
               className="uppercase font-alumni-sans font-bold"
             >
               <small className="text-lg font-medium text-[#e73c37]">bootcamp</small>
-              <h3 className="text-2xl">kodego</h3>
-            </Typography>
+              <p className="text-2xl">kodego - november 2023</p>
+            </div>
             <Typography
               type="small"
               className="mt-2 text-foreground font-prompt-regular"
@@ -63,13 +63,13 @@ export default function Education() {
         </Timeline.Item>
         <Timeline.Item>
           <Timeline.Body className="-translate-y-1.5 text-right w-[30rem]">
-            <Typography
+            <div
               color="default"
               className="uppercase font-alumni-sans font-bold"
             >
               <small className="text-lg font-medium text-[#e73c37]">seniorhigh school</small>
-              <h3 className="text-2xl">john j. russell memorial highschool</h3>
-            </Typography>
+              <p className="text-2xl">john j. russell memorial highschool - march 2020</p>
+            </div>
             <Typography
               type="small"
               className="mt-2 text-foreground font-prompt-regular"
