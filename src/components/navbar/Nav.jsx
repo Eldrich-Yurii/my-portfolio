@@ -8,7 +8,7 @@ import {
 } from "@material-tailwind/react";
 import { IoClose } from "react-icons/io5";
 import { TbMenu } from "react-icons/tb";
-import LOGO from "../../assets/yuri-logo.png"
+import LOGO from "../../assets/yuri-logo.png";
 
 const LINKS = [
   {
@@ -60,7 +60,7 @@ export default function Nav() {
       <div>
         <div className="flex justify-between items-center w-full lg:h-16 lg:px-[4.5rem]">
           <div className="inline-flex items-center">
-              <img src={LOGO} alt="logo" width={50}/>
+            <img src={LOGO} alt="logo" width={50} />
             <Typography
               as="a"
               href="/"
@@ -75,7 +75,7 @@ export default function Nav() {
             <NavList />
           </div>
           <div>
-            <Button className="hidden border-none bg-[#E73C37] lg:inline-block font-alumni-sans text-lg leading-[100%] px-4 py-3">
+            <Button className="font-alumni-sans text-lg font-bold tracking-wide border-2 border-[#e73c37] text-[#e73c37] bg-transparent hover:border-[#e73c37] hover:bg-[#e73c37] hover:text-white">
               DOWNLOAD RESUME
             </Button>
           </div>
@@ -95,7 +95,7 @@ export default function Nav() {
         </IconButton>
       </div>
       <Collapse open={openNav}>
-        <NavList/>
+        <NavList />
         <Button isFullWidth size="sm" className="mt-4">
           DOWNLOAD RESUME
         </Button>
