@@ -11,7 +11,6 @@ import {
   FaFigma,
 } from "react-icons/fa6";
 import { SiTailwindcss, SiExpress, SiAdobeillustrator, SiCanva, SiPostman, SiXampp } from "react-icons/si";
-import FallingText from "./FallingText";
 
 export default function Skills() {
   return (

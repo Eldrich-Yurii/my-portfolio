@@ -1,4 +1,7 @@
 import { Timeline, Typography, Avatar } from "@material-tailwind/react";
+import INFOLOGO from "../../assets/informatics.webp"
+import KODLOGO from "../../assets/kodego.webp"
+import JJLOGO from "../../assets/johnJ.webp"
 
 export default function Education() {
   return (
@@ -17,6 +20,7 @@ export default function Education() {
               color="default"
               className="uppercase font-alumni-sans font-bold"
             >
+              {/* <img src={INFOLOGO} alt="" width={30} className="flex justify-self-end"/> */}
               <small className="text-lg font-medium text-[#e73c37]">college</small>
               <p className="text-2xl">informatics college manila inc. - january 2025</p>
             </div>
@@ -46,6 +50,7 @@ export default function Education() {
               color="default"
               className="uppercase font-alumni-sans font-bold"
             >
+              {/* <img src={KODLOGO} alt="" width={40}/> */}
               <small className="text-lg font-medium text-[#e73c37]">bootcamp</small>
               <p className="text-2xl">kodego - november 2023</p>
             </div>
@@ -67,6 +72,7 @@ export default function Education() {
               color="default"
               className="uppercase font-alumni-sans font-bold"
             >
+              {/* <img src={JJLOGO} alt="" width={20} className="flex justify-self-end"/> */}
               <small className="text-lg font-medium text-[#e73c37]">seniorhigh school</small>
               <p className="text-2xl">john j. russell memorial highschool - march 2020</p>
             </div>
