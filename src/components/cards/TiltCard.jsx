@@ -123,7 +123,7 @@ export default function TiltedCard({
         </div>
         <div>
           <div className="h-24">
-            <small className="font-prompt-regular leading-[150%] py-2">
+            <small className="font-prompt-regular py-2">
               {description}{" "}<span className="underline decoration-[20%] decoration-[#e73c37] hover:text-red-800">{projectLink}</span>
             </small>
           </div>

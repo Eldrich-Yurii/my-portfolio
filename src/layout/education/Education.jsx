@@ -3,17 +3,21 @@ import { Timeline, Typography, Avatar } from "@material-tailwind/react";
 
 export default function Education() {
   return (
-    <div className="grid place-content-center p-40 text-[#333333]">
-      <h2 className="uppercase font-alumni-sans font-bold text-7xl text-center pb-32">
+    <div className="text-[#333333] px-8 py-36 lg:grid lg:place-content-center lg:p-40 ">
+      <h2 className="border-l-4 pl-2 border-[#e73c37] uppercase font-alumni-sans font-bold  mb-8 text-lg lg:border-none lg:text-center lg:text-7xl lg:pb-32">
         educational attainment
       </h2>
       <Timeline
-        className=" w-[63.8rem]"
+        className=" lg:w-[63.8rem]"
         color="secondary"
         orientation="vertical"
       >
-        <Timeline.Item>
-          <Timeline.Body className="-translate-y-1.5 text-right w-[30rem]">
+        <Timeline.Item className="flex lg:flex-row-reverse">
+          <Timeline.Header>
+            <Timeline.Separator />
+            <Timeline.Icon className="h-3 w-3" />
+          </Timeline.Header>
+          <Timeline.Body className="-translate-y-1.5 lg:text-right lg:w-[30rem] lg:flex">
             <div
               color="default"
               className="uppercase font-alumni-sans font-bold"
@@ -33,17 +37,13 @@ export default function Education() {
               underpinnings of computing.
             </Typography>
           </Timeline.Body>
-          <Timeline.Header>
-            <Timeline.Separator />
-            <Timeline.Icon className="h-3 w-3" />
-          </Timeline.Header>
         </Timeline.Item>
-        <Timeline.Item className="grid place-self-end">
+        <Timeline.Item className="grid lg:place-self-end">
           <Timeline.Header>
             <Timeline.Separator />
             <Timeline.Icon className="h-3 w-3" />
           </Timeline.Header>
-          <Timeline.Body className="-translate-y-1.5  w-[30rem]">
+          <Timeline.Body className="-translate-y-1.5  lg:w-[30rem]">
             <div
               color="default"
               className="uppercase font-alumni-sans font-bold"
@@ -64,8 +64,11 @@ export default function Education() {
             </Typography>
           </Timeline.Body>
         </Timeline.Item>
-        <Timeline.Item>
-          <Timeline.Body className="-translate-y-1.5 text-right w-[30rem]">
+        <Timeline.Item className="flex lg:flex-row-reverse">
+          <Timeline.Header>
+            <Timeline.Icon className="h-3 w-3" />
+          </Timeline.Header>
+          <Timeline.Body className="-translate-y-1.5 lg:text-right lg:w-[30rem]">
             <div
               color="default"
               className="uppercase font-alumni-sans font-bold"
@@ -85,9 +88,6 @@ export default function Education() {
               social sciences, communication, or other relevant fields.
             </Typography>
           </Timeline.Body>
-          <Timeline.Header>
-            <Timeline.Icon className="h-3 w-3" />
-          </Timeline.Header>
         </Timeline.Item>
       </Timeline>
     </div>

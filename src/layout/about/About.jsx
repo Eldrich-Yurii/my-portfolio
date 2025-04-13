@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div id="about" className="h-screen text-[#333333] bg-pink-200 grid px-8 items-center lg:px-[7rem]">
+    <div id="about" className="h-screen text-[#333333] grid px-8 items-center lg:px-[7rem]">
       <div className="text-center lg:text-left">
         <section>
           <h4 className="font-alumni-sans font-semibold pb-6 text-2xl lg:text-5xl lg:pb-12">

@@ -79,8 +79,8 @@ export default function ProjectCards() {
             })}
             altText={project.alt}
             captionText="Click - See more"
-            containerHeight="24rem"
-            containerWidth="300px"
+            containerHeight="23rem"
+            containerWidth="280px"
             rotateAmplitude={10}
             scaleOnHover={1}
             showMobileWarning={false}

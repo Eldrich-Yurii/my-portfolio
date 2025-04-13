@@ -9,16 +9,16 @@ import { SiGmail } from "react-icons/si";
 
 export default function Contact() {
   return (
-    <div className="h-screen flex justify-center flex-col text-[#333333] px-[7rem]">
+    <div className="h-screen flex justify-center flex-col text-[#333333] px-8 lg:px-[7rem]">
       <div className="grid pb-40">
         <header className="inline-flex items-center gap-4">
-          <h4 className="font-alumni-sans uppercase text-5xl font-extrabold">
+          <h4 className="font-alumni-sans uppercase font-extrabold text-lg lg:text-5xl">
             let's chat 😁
           </h4>
         </header>
         <a
           href="mailto:sumabateldrichjyuri@gmail.com"
-          className="underline decoration-[20%] underline-offset-[14px] decoration-[#e73c37] text-6xl font-prompt-light"
+          className="underline decoration-[20%] underline-offset-[14px] decoration-[#e73c37] text-2xl font-prompt-light lg:text-6xl"
         >
           sumabateldrichjyuri@gmail.com
         </a>
