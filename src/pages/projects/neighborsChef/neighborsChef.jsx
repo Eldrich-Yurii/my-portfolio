@@ -5,14 +5,14 @@ import { TbArrowLeft } from "react-icons/tb";
 
 export default function NeighborsChef() {
   return (
-    <div className="px-[14rem] py-[4.5rem] text-[#333333]">
+    <div className="text-[#333333] p-8  lg:px-[14rem] lg:py-[4.5rem]">
       <header>
         <h2 className="uppercase text-5xl font-alumni-sans font-bold">
           neighbos's chef booking management system
         </h2>
       </header>
       <section>
-        <p className="font-prompt-light pt-4 pb-8  leading-[150%]">
+        <p className="font-prompt-light pt-0 pb-4 text-sm lg:text-base lg:pt-4 lg:pb-8 leading-[150%]">
           A website booking management system for a restaurant. This is to help
           a restaurant to automate their booking reservation and can be easily
           accessible for their customers.
@@ -21,55 +21,57 @@ export default function NeighborsChef() {
       <section>
         <figure>
           <img
-            className="rounded-2xl"
+            className="rounded-lg lg:rounded-2xl"
             src={NeighborsPic}
             alt="Cenro Hero Section"
           />
         </figure>
       </section>
-      <section className="flex justify-between py-16">
+      <section className="flex justify-between py-8 lg:py-20">
         <div>
-          <h3 className="uppercase font-alumni-sans font-bold text-2xl">
+          <h3 className="uppercase font-alumni-sans font-bold text-xl lg:text-2xl">
             my role
           </h3>
-          <ul className="font-prompt-regular">
+          <ul className="font-prompt-regular text-xs lg:text-base">
             <li>UI Designer</li>
             <li>Frontend Developer</li>
             <li>Backend Developer</li>
           </ul>
         </div>
         <div>
-          <h3 className="uppercase font-alumni-sans font-bold text-2xl">
+          <h3 className="uppercase font-alumni-sans font-bold text-xl lg:text-2xl">
             tech stack
           </h3>
-          <div className="inline-flex gap-10">
-            <ul className="font-prompt-regular">
+          <div className="inline-flex gap-3 lg:gap-10">
+          <ul className="font-prompt-regular text-xs lg:text-base">
               <li>React.js</li>
               <li>Tailwind</li>
-            </ul>
-            <ul className="font-prompt-regular">
               <li>Node.js</li>
+            </ul>
+            <ul className="font-prompt-regular text-xs lg:text-base">
               <li>Express.js</li>
               <li>MySQL</li>
             </ul>
           </div>
         </div>
         <div>
-          <h3 className="uppercase font-alumni-sans font-bold text-2xl">
+        <h3 className="uppercase font-alumni-sans font-bold text-xl lg:text-2xl">
             date
           </h3>
-          <p className="font-prompt-regular">August 2023</p>
+          <p className="font-prompt-regular text-xs lg:text-base">
+            August 2023
+            </p>
         </div>
       </section>
       <section>
-        <h3 className="uppercase text-xl font-alumni-sans font-bold pb-16">
+      <h3 className="border-l-4 pl-2 border-[#e73c37] uppercase text-xl font-alumni-sans font-bold mb-4">
           What I learned?
         </h3>
-        <div className="flex justify-between  pb-8">
+        <div className="flex flex-col lg:flex-row lg:justify-between  lg:pb-8">
           <p className="uppercase font-alumni-sans font-bold text-2xl">
             syntax
           </p>
-          <p className="font-prompt-regular w-[48rem]">
+          <p className="font-prompt-regular text-sm pb-4 lg:text-base lg:w-[48rem]">
             As I making this project I learned that there are similarities of
             the logic of major programming languages it jsut varies on the
             syntax being used depending on what programmig language is.
@@ -77,9 +79,9 @@ export default function NeighborsChef() {
             would really help.
           </p>
         </div>
-        <div className="flex justify-between ">
+        <div className="flex flex-col lg:flex-row lg:justify-between  lg:pb-8">
           <p className="uppercase font-alumni-sans font-bold text-2xl">crud</p>
-          <p className="font-prompt-regular w-[48rem] pb-8 ">
+          <p className="font-prompt-regular text-sm pb-4 lg:text-base lg:w-[48rem]">
             Learning web development is hard yet fulfilling when you
             accomplished something. One of the major part that a junior
             developer must learn is CRUD functionalities. For me, the logic is
@@ -88,11 +90,11 @@ export default function NeighborsChef() {
             needs to master programming.
           </p>
         </div>
-        <div className="flex justify-between  pb-8">
+        <div className="flex flex-col lg:flex-row lg:justify-between  lg:pb-8">
           <p className="uppercase font-alumni-sans font-bold text-2xl">
             tailwind css
           </p>
-          <p className="font-prompt-regular w-[48rem]">
+          <p className="font-prompt-regular text-sm pb-4 lg:text-base lg:w-[48rem]">
             Tailwind is a great tool for style a webpage, it is more flexible
             than bootstrap. However, similar to bootstrap learning this is quite
             challenging especially for someone who just starting to use this. In
@@ -100,11 +102,11 @@ export default function NeighborsChef() {
             libraries like this.
           </p>
         </div>
-        <div className="flex justify-between  pb-8">
+        <div className="flex flex-col lg:flex-row lg:justify-between  lg:pb-8">
           <p className="uppercase font-alumni-sans font-bold text-2xl">
             database
           </p>
-          <p className="font-prompt-regular w-[48rem]">
+          <p className="font-prompt-regular text-sm pb-4 lg:text-base lg:w-[48rem]">
             One of the major part of web development is the database. this is
             where data being store gathered or collected from inputs. I learned
             that there are many types of database and each have its own

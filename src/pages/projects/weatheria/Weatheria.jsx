@@ -5,10 +5,10 @@ import WeatheriaPic from "../../../assets/weatheria-fms.png";
 
 export default function Weatheria() {
   return (
-    <div className="px-[14rem] py-[4.5rem] text-[#333333]">
+    <div className="text-[#333333] p-8  lg:px-[14rem] lg:py-[4.5rem]">
       <header>
         <h2 className="uppercase text-5xl font-alumni-sans font-bold">
-          cenro business permit processing system
+          weatheria
         </h2>
       </header>
       <section>
@@ -22,7 +22,7 @@ export default function Weatheria() {
       <section>
         <figure>
           <img
-            className="rounded-2xl"
+            className="border rounded-lg lg:rounded-2xl"
             src={WeatheriaPic}
             alt="Cenro Hero Section"
           />
@@ -30,26 +30,26 @@ export default function Weatheria() {
       </section>
       <section className="flex justify-between py-16">
         <div>
-          <h3 className="uppercase font-alumni-sans font-bold text-2xl">
+          <h3 className="uppercase font-alumni-sans font-bold text-xl lg:text-2xl">
             my role
           </h3>
-          <ul className="font-prompt-regular">
+          <ul className="font-prompt-regular text-xs lg:text-base">
             <li>UI Designer</li>
             <li>Frontend Developer</li>
             <li>Backend Developer</li>
           </ul>
         </div>
         <div>
-          <h3 className="uppercase font-alumni-sans font-bold text-2xl">
+          <h3 className="uppercase font-alumni-sans font-bold text-xl lg:text-2xl">
             tech stack
           </h3>
-          <div className="inline-flex gap-10">
-            <ul className="font-prompt-regular">
+          <div className="inline-flex gap-3 lg:gap-10">
+            <ul className="font-prompt-regular text-xs lg:text-base">
               <li>Figma</li>
               <li>Html</li>
               <li>Bootstrap</li>
             </ul>
-            <ul className="font-prompt-regular">
+            <ul className="font-prompt-regular text-xs lg:text-base">
               <li>JavaScript</li>
               <li>Php</li>
               <li>MySQL</li>
@@ -57,21 +57,21 @@ export default function Weatheria() {
           </div>
         </div>
         <div>
-          <h3 className="uppercase font-alumni-sans font-bold text-2xl">
+          <h3 className="uppercase font-alumni-sans font-bold text-xl lg:text-2xl">
             date
           </h3>
-          <p className="font-prompt-regular">December 2023</p>
+          <p className="font-prompt-regular text-xs lg:text-base">December 2023</p>
         </div>
       </section>
       <section>
-        <h3 className="uppercase text-xl font-alumni-sans font-bold pb-4">
+        <h3 className="border-l-4 pl-2 border-[#e73c37] uppercase text-xl font-alumni-sans font-bold mb-4">
           What I learned?
         </h3>
-        <div className="flex justify-between  pb-8">
+        <div className="flex flex-col lg:flex-row lg:justify-between  lg:pb-8">
           <p className="uppercase font-alumni-sans font-bold text-2xl">
             syntax
           </p>
-          <p className="font-prompt-regular w-[48rem]">
+          <p className="font-prompt-regular text-sm pb-4 lg:text-base lg:w-[48rem]">
             As I making this project I learned that there are similarities of
             the logic of major programming languages it just varies on the
             syntax being used depending on what programmig language is.
@@ -79,11 +79,11 @@ export default function Weatheria() {
             would really help.
           </p>
         </div>
-        <div className="flex justify-between ">
-          <p className="uppercase font-alumni-sans font-bold text-2xl">
+        <div className="flex flex-col lg:flex-row lg:justify-between  lg:pb-8">
+        <p className="uppercase font-alumni-sans font-bold text-2xl">
             weather api
           </p>
-          <p className="font-prompt-regular w-[48rem] pb-8 ">
+          <p className="font-prompt-regular text-sm pb-4 lg:pb-8 lg:text-base lg:w-[48rem] ">
             In this project we used openweatherAPI for data of rainfalls. I
             learned that there are bunch of APIs out there that is readily
             available. We just need to understand how the API works so that we

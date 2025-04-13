@@ -14,12 +14,12 @@ export default function About() {
         </section>
         <section className="flex flex-col lg:flex-row lg:justify-between">
           <div>
-            <h2 className="uppercase leading-[70%] font-alumni-sans font-black text-4xl lg:leading-[72%] lg:w-[37rem] lg:text-9xl">
+            <h2 className="uppercase leading-[70%] font-alumni-sans font-black text-4xl text-balance lg:leading-[72%] lg:w-[37rem] lg:text-9xl">
               Hi My name is <span className="text-[#e73c37]">Eldrich</span>{" "}
               Jyuri S. Torcuator
             </h2>
           </div>
-          <div className="font-prompt-regular font-medium text-xs leading-[180%] pt-4 lg:pt-0 lg:text-xl lg:w-[34rem] lg:leading-[200%]">
+          <div className="font-prompt-regular font-medium text-xs leading-[180%] pt-8 lg:pt-0 lg:text-xl lg:w-[34rem] lg:leading-[200%]">
             <p>
               A college <span className="line-through decoration-[#333333] decoration-[20%] ">student</span> <span className="text-[#e73c37]">graduate</span> of Bachelor of Science in Information
               Technology. I love learning new things whether it is design or
