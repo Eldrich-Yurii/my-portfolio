@@ -5,7 +5,7 @@ export default function About() {
     <div id="about" className="h-screen text-[#333333] bg-pink-200 grid px-8 items-center lg:px-[7rem]">
       <div className="text-center lg:text-left">
         <section>
-          <h4 className="font-alumni-sans font-semibold pb-6 lg:text-5xl lg:pb-12">
+          <h4 className="font-alumni-sans font-semibold pb-6 text-2xl lg:text-5xl lg:pb-12">
             MORE ABOUT{" "}
             <span className="underline decoration-[20%] decoration-[#e73c37] underline-offset-1">
               ME
