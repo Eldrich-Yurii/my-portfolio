@@ -18,7 +18,7 @@ export default function Contact() {
         </header>
         <a
           href="mailto:sumabateldrichjyuri@gmail.com"
-          className="underline decoration-[20%] underline-offset-[14px] decoration-[#e73c37] text-xl font-prompt-light lg:text-6xl"
+          className="underline decoration-[20%] underline-offset-[14px] decoration-[#e73c37] text-lg font-prompt-light lg:text-6xl"
         >
           sumabateldrichjyuri@gmail.com
         </a>
