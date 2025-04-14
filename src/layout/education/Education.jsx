@@ -12,12 +12,12 @@ export default function Education() {
         color="secondary"
         orientation="vertical"
       >
-        <Timeline.Item className="flex lg:flex-row-reverse">
+        <Timeline.Item className="lg:flex lg:flex-row-reverse">
           <Timeline.Header>
             <Timeline.Separator />
             <Timeline.Icon className="h-3 w-3" />
           </Timeline.Header>
-          <Timeline.Body className="-translate-y-1.5 lg:text-right lg:w-[30rem] lg:flex">
+          <Timeline.Body className="-translate-y-1.5 lg:text-right lg:w-[30rem] lg:flex lg:flex-col">
             <div
               color="default"
               className="uppercase font-alumni-sans font-bold"

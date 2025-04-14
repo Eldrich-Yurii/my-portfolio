@@ -1,11 +1,9 @@
 import React from "react";
 import { TbArrowLeft } from "react-icons/tb";
 import { Link } from "react-router";
-import CenroPic from "../../../assets/cenro.png";
-import CenroHero from "../../../assets/cenroHero.png";
-import Laptop from "../../../assets/laptop.png";
+import CenroPic from "../../../assets/pictures/cenro.png";
 import Carousel from "../../../components/carousel/CenroCarousel";
-
+import CenroVid from "../../../assets/videos/cenro-vid.gif"
 
 export default function Cenro() {
  
@@ -73,7 +71,7 @@ export default function Cenro() {
         </div>
       </section>
       <section>
-        <h3 className="border-l-4 pl-2 border-[#e73c37] uppercase text-xl font-alumni-sans font-bold mb-4">
+        <h3 className="border-l-4 pl-2 border-[#e73c37] uppercase text-xl font-alumni-sans font-bold mb-4 lg:mb-12">
           What I learned?
         </h3>
         <div className="flex flex-col lg:flex-row lg:justify-between  lg:pb-8">
@@ -116,9 +114,9 @@ export default function Cenro() {
           </p>
         </div>
       </section>
-      {/* <section className="lg:pt-20">
-      
-      </section> */}
+      <section>
+        <img src={CenroVid} alt="" className="w-full"/>
+      </section>
     </div>
   );
 }

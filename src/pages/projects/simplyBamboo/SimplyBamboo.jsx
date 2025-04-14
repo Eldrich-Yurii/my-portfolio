@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router";
 import { TbArrowLeft } from "react-icons/tb";
-import BambooPic from "../../../assets/Simply_bamboo.png";
+import BambooPic from "../../../assets/pictures/Simply_bamboo.png";
 import Carousel from "../../../components/carousel/CenroCarousel";
-import SimplyWebPage from "../../../assets/projects/simplyBamboo/Simply_bamboo.png"
+import SimplyVid from "../../../assets/videos/simply-vid.gif";
 
 export default function SimplyBamboo() {
   return (
@@ -53,7 +53,7 @@ export default function SimplyBamboo() {
           </div>
         </div>
         <div>
-        <h3 className="uppercase font-alumni-sans font-bold text-xl lg:text-2xl">
+          <h3 className="uppercase font-alumni-sans font-bold text-xl lg:text-2xl">
             date
           </h3>
           <p className="font-prompt-regular text-xs lg:text-base">
@@ -62,7 +62,7 @@ export default function SimplyBamboo() {
         </div>
       </section>
       <section>
-      <h3 className="border-l-4 pl-2 border-[#e73c37] uppercase text-xl font-alumni-sans font-bold mb-4">
+        <h3 className="border-l-4 pl-2 border-[#e73c37] uppercase text-xl font-alumni-sans font-bold mb-4 lg:mb-12">
           What I learned?
         </h3>
         <div className="flex flex-col lg:flex-row lg:justify-between  lg:pb-8">
@@ -77,7 +77,7 @@ export default function SimplyBamboo() {
           </p>
         </div>
         <div className="flex flex-col lg:flex-row lg:justify-between  pb-8">
-        <p className="uppercase font-alumni-sans font-bold text-2xl">
+          <p className="uppercase font-alumni-sans font-bold text-2xl">
             layout
           </p>
           <p className="font-prompt-regular text-sm pb-4 lg:text-base lg:w-[48rem]">
@@ -90,7 +90,7 @@ export default function SimplyBamboo() {
         </div>
       </section>
       <section>
-        <img src={SimplyWebPage} alt="" className="w-full rounded-xl"/>
+        <img src={SimplyVid} alt="" className="w-full"/>
       </section>
     </div>
   );

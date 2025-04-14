@@ -9,7 +9,9 @@ import { SiGmail } from "react-icons/si";
 
 export default function Contact() {
   return (
-    <div className="h-screen flex justify-center flex-col text-[#333333] px-8 lg:px-[7rem]">
+    <div className="lg:xl:grid lg:xl:place-content-center">
+
+    <div className="h-80 flex justify-center flex-col text-[#333333] px-8 lg:h-screen lg:px-[7rem]">
       <div className="grid pb-40">
         <header className="inline-flex items-center gap-4">
           <h4 className="font-alumni-sans uppercase font-extrabold text-lg lg:text-5xl">
@@ -18,8 +20,8 @@ export default function Contact() {
         </header>
         <a
           href="mailto:sumabateldrichjyuri@gmail.com"
-          className="underline decoration-[20%] underline-offset-[14px] decoration-[#e73c37] text-lg font-prompt-light lg:text-6xl"
-        >
+          className="underline decoration-[20%] decoration-[#e73c37] underline-offset-8 lg:underline-offset-[14px] text-lg font-prompt-light lg:text-6xl"
+          >
           sumabateldrichjyuri@gmail.com
         </a>
       </div>
@@ -32,7 +34,7 @@ export default function Contact() {
             href="https://www.facebook.com/eldrich.jyuri.sumabat.22"
             className="hover:text-[#e73c37]"
             target="_blank"
-          >
+            >
             <FaFacebookSquare />
           </a>
           <a href="" target="_blank" className="hover:text-[#e73c37]">
@@ -42,25 +44,26 @@ export default function Contact() {
             href="https://www.linkedin.com/in/eldrich-jyuri-sumabat/"
             target="_blank"
             className="hover:text-[#e73c37]"
-          >
+            >
             <FaLinkedinIn />
           </a>
           <a
             href="https://github.com/Eldrich-Yurii"
             target="_blank"
             className="hover:text-[#e73c37]"
-          >
+            >
             <FaGithubAlt />
           </a>
           <a
             href="mailto:sumabateldrichjyuri@gmail.com"
             target="_blank"
             className="hover:text-[#e73c37]"
-          >
+            >
             <SiGmail />
           </a>
         </section>
       </div>
     </div>
+            </div>
   );
 }

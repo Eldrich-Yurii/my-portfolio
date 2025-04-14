@@ -1,8 +1,9 @@
 import React from "react";
-import NeighborsPic from "../../../assets/neighbors-chef.png";
+import NeighborsPic from "../../../assets/pictures/neighbors-chef.png";
 import { Link } from "react-router";
 import { TbArrowLeft } from "react-icons/tb";
 import Carousel from "../../../components/carousel/CenroCarousel";
+import ChefVid from "../../../assets/videos/chef-vid.gif"
 
 export default function NeighborsChef() {
   return (
@@ -45,7 +46,7 @@ export default function NeighborsChef() {
             tech stack
           </h3>
           <div className="inline-flex gap-3 lg:gap-10">
-          <ul className="font-prompt-regular text-xs lg:text-base">
+            <ul className="font-prompt-regular text-xs lg:text-base">
               <li>React.js</li>
               <li>Tailwind</li>
               <li>Node.js</li>
@@ -57,16 +58,16 @@ export default function NeighborsChef() {
           </div>
         </div>
         <div>
-        <h3 className="uppercase font-alumni-sans font-bold text-xl lg:text-2xl">
+          <h3 className="uppercase font-alumni-sans font-bold text-xl lg:text-2xl">
             date
           </h3>
           <p className="font-prompt-regular text-xs lg:text-base">
             August 2023
-            </p>
+          </p>
         </div>
       </section>
       <section>
-      <h3 className="border-l-4 pl-2 border-[#e73c37] uppercase text-xl font-alumni-sans font-bold mb-4">
+        <h3 className="border-l-4 pl-2 border-[#e73c37] uppercase text-xl font-alumni-sans font-bold mb-4 lg:mb-12">
           What I learned?
         </h3>
         <div className="flex flex-col lg:flex-row lg:justify-between  lg:pb-8">
@@ -117,7 +118,9 @@ export default function NeighborsChef() {
           </p>
         </div>
       </section>
-      {/* <section>pictures and video</section> */}
+      <section>
+        <img src={ChefVid} alt="" className="w-full"/>
+      </section>
     </div>
   );
 }

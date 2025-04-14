@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router";
 import { TbArrowLeft } from "react-icons/tb";
-import WeatheriaPic from "../../../assets/weatheria-fms.png";
+import WeatheriaPic from "../../../assets/pictures/weatheria-fms.png";
 import Carousel from "../../../components/carousel/CenroCarousel";
 
 export default function Weatheria() {
@@ -66,7 +66,7 @@ export default function Weatheria() {
         </div>
       </section>
       <section>
-        <h3 className="border-l-4 pl-2 border-[#e73c37] uppercase text-xl font-alumni-sans font-bold mb-4">
+        <h3 className="border-l-4 pl-2 border-[#e73c37] uppercase text-xl font-alumni-sans font-bold mb-4 lg:mb-12">
           What I learned?
         </h3>
         <div className="flex flex-col lg:flex-row lg:justify-between  lg:pb-8">
