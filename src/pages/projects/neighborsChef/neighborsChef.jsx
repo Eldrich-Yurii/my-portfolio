@@ -2,6 +2,7 @@ import React from "react";
 import NeighborsPic from "../../../assets/neighbors-chef.png";
 import { Link } from "react-router";
 import { TbArrowLeft } from "react-icons/tb";
+import Carousel from "../../../components/carousel/CenroCarousel";
 
 export default function NeighborsChef() {
   return (
@@ -26,6 +27,7 @@ export default function NeighborsChef() {
             alt="Cenro Hero Section"
           />
         </figure>
+        {/* <Carousel /> */}
       </section>
       <section className="flex justify-between py-8 lg:py-20">
         <div>
@@ -115,7 +117,7 @@ export default function NeighborsChef() {
           </p>
         </div>
       </section>
-      <section>pictures and video</section>
+      {/* <section>pictures and video</section> */}
     </div>
   );
 }

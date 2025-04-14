@@ -11,6 +11,7 @@ import {
 } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
+
 export default function HeroSec() {
   return (
     <div className="flex-col h-screen flex px-8 lg:px-0 lg:items-center justify-center">

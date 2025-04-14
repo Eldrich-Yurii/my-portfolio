@@ -9,6 +9,7 @@ import {
 import { IoClose } from "react-icons/io5";
 import { TbMenu } from "react-icons/tb";
 import LOGO from "../../assets/yuri-logo.png";
+import Resume from "../../assets/pdf/RESUME_Eldrich_Jyuri_Sumabat_Torcuator.pdf";
 
 const LINKS = [
   {
@@ -76,7 +77,9 @@ export default function Nav() {
           </div>
           <div className="hidden lg:block">
             <Button className=" font-alumni-sans text-lg font-bold tracking-wide border-2 border-[#e73c37] text-[#e73c37] bg-transparent hover:border-[#e73c37] hover:bg-[#e73c37] hover:text-white">
-              DOWNLOAD RESUME
+              <a href={Resume} download>
+                DOWNLOAD RESUME
+              </a>
             </Button>
           </div>
           <IconButton
@@ -85,19 +88,21 @@ export default function Nav() {
             color="secondary"
             onClick={() => setOpenNav(!openNav)}
             className="ml-auto grid lg:hidden"
-            >
+          >
             {openNav ? (
               <IoClose className="h-4 w-4" />
             ) : (
               <TbMenu className="h-4 w-4" />
             )}
           </IconButton>
-            </div>
+        </div>
       </div>
       <Collapse open={openNav}>
         <NavList />
-        <Button isFullWidth size="sm" className="mt-4">
-          DOWNLOAD RESUME
+        <Button isFullWidth size="sm" className="font-alumni-sans text-lg font-bold tracking-wide border-2 border-[#e73c37] bg-transparent text-[#e73c37] mt-4">
+          <a href={Resume} download>
+            DOWNLOAD RESUME
+          </a>
         </Button>
       </Collapse>
     </Navbar>

@@ -4,9 +4,12 @@ import { Link } from "react-router";
 import CenroPic from "../../../assets/cenro.png";
 import CenroHero from "../../../assets/cenroHero.png";
 import Laptop from "../../../assets/laptop.png";
+import Carousel from "../../../components/carousel/CenroCarousel";
 
 
 export default function Cenro() {
+ 
+
   return (
     <div className="text-[#333333] p-8  lg:px-[14rem] lg:py-[4.5rem]">
       <header>
@@ -30,6 +33,7 @@ export default function Cenro() {
             alt="Cenro Hero Section"
           />
         </figure>
+        {/* <Carousel /> */}
       </section>
       <section className="flex justify-between py-8 lg:py-20">
         <div>
@@ -65,7 +69,7 @@ export default function Cenro() {
           </h3>
           <p className="font-prompt-regular text-xs lg:text-base">
             January 2025
-            </p>
+          </p>
         </div>
       </section>
       <section>
@@ -112,12 +116,9 @@ export default function Cenro() {
           </p>
         </div>
       </section>
-      <section className="lg:pt-20">
-        <figure className="relative">
-          <img src={Laptop} alt="" className="w-full h-[12.5rem] lg:h-[32rem]" />
-          <img src={CenroHero} alt="" className="absolute top-2 left-11 w-[17rem] lg:top-[1.7rem] lg:left-[7.2em] lg:w-[42.1rem]" />
-        </figure>
-      </section>
+      {/* <section className="lg:pt-20">
+      
+      </section> */}
     </div>
   );
 }

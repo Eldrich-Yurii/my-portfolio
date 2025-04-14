@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router";
 import { TbArrowLeft } from "react-icons/tb";
 import WeatheriaPic from "../../../assets/weatheria-fms.png";
+import Carousel from "../../../components/carousel/CenroCarousel";
 
 export default function Weatheria() {
   return (
@@ -27,6 +28,7 @@ export default function Weatheria() {
             alt="Cenro Hero Section"
           />
         </figure>
+        {/* <Carousel /> */}
       </section>
       <section className="flex justify-between py-16">
         <div>

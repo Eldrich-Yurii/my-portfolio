@@ -5,7 +5,7 @@ export default function HeroHeading() {
     <>
       <RotatingText
         texts={["junior developer", "web designer", "learner"]}
-        mainClassName="font-alumni-sans font-extrabold uppercase leading-[100%] text-[#333333] overflow-hidden h-48 flex items-center leading-[100%] text-[100px] lg:justify-center rounded-lg lg:text-[210px] lg:text-tracking"
+        mainClassName="font-alumni-sans font-extrabold uppercase leading-[100%] text-[#333333] overflow-hidden h-[14rem] flex items-center leading-[100%] text-[100px] lg:justify-center rounded-lg lg:text-[210px] lg:text-tracking"
         staggerFrom={"last"}
         initial={{ y: "-100%" }}
         animate={{ y: 0 }}
