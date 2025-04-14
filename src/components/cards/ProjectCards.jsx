@@ -1,9 +1,9 @@
 import React from "react";
 import TiltCard from "./TiltCard";
-import proj1 from "../../assets/cenro.png";
-import proj2 from "../../assets/Simply_bamboo.png";
-import proj3 from "../../assets/weatheria-fms.png";
-import proj4 from "../../assets/neighbors-chef.png";
+import proj1 from "../../assets/pictures/cenro.png";
+import proj2 from "../../assets/pictures/Simply_bamboo.png";
+import proj3 from "../../assets/pictures/weatheria-fms.png";
+import proj4 from "../../assets/pictures/neighbors-chef.png";
 import { Link } from "react-router";
 
 export default function ProjectCards() {
